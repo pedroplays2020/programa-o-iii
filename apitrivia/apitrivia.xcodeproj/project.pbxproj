@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B568796278ECC6C004B3190 /* apitriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B568795278ECC6C004B3190 /* apitriviaApp.swift */; };
+		8B568798278ECC6C004B3190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B568797278ECC6C004B3190 /* ContentView.swift */; };
+		8B56879A278ECC6D004B3190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B568799278ECC6D004B3190 /* Assets.xcassets */; };
+		8B56879D278ECC6D004B3190 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B56879C278ECC6D004B3190 /* Preview Assets.xcassets */; };
+		8B5687A8278ECC6D004B3190 /* apitriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5687A7278ECC6D004B3190 /* apitriviaTests.swift */; };
+		8B5687B3278ECC6D004B3190 /* apitriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5687B2278ECC6D004B3190 /* apitriviaUITests.swift */; };
+		8B5687C7278ECDC9004B3190 /* apitriviamodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5687C6278ECDC9004B3190 /* apitriviamodel.swift */; };
+		8B5687E0278ED4FC004B3190 /* quizzy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5687DF278ED4FC004B3190 /* quizzy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B5687A4278ECC6D004B3190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B56878A278ECC6C004B3190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B568791278ECC6C004B3190;
+			remoteInfo = apitrivia;
+		};
+		8B5687AF278ECC6D004B3190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B56878A278ECC6C004B3190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B568791278ECC6C004B3190;
+			remoteInfo = apitrivia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B568792278ECC6C004B3190 /* apitrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apitrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B568795278ECC6C004B3190 /* apitriviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apitriviaApp.swift; sourceTree = "<group>"; };
+		8B568797278ECC6C004B3190 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B568799278ECC6D004B3190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B56879C278ECC6D004B3190 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B56879E278ECC6D004B3190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5687A3278ECC6D004B3190 /* apitriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apitriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5687A7278ECC6D004B3190 /* apitriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apitriviaTests.swift; sourceTree = "<group>"; };
+		8B5687A9278ECC6D004B3190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5687AE278ECC6D004B3190 /* apitriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apitriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5687B2278ECC6D004B3190 /* apitriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apitriviaUITests.swift; sourceTree = "<group>"; };
+		8B5687B4278ECC6D004B3190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5687C6278ECDC9004B3190 /* apitriviamodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apitriviamodel.swift; sourceTree = "<group>"; };
+		8B5687DF278ED4FC004B3190 /* quizzy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizzy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B56878F278ECC6C004B3190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5687A0278ECC6D004B3190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5687AB278ECC6D004B3190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B568789278ECC6C004B3190 = {
+			isa = PBXGroup;
+			children = (
+				8B5687DF278ED4FC004B3190 /* quizzy.swift */,
+				8B568794278ECC6C004B3190 /* apitrivia */,
+				8B5687A6278ECC6D004B3190 /* apitriviaTests */,
+				8B5687B1278ECC6D004B3190 /* apitriviaUITests */,
+				8B568793278ECC6C004B3190 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B568793278ECC6C004B3190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B568792278ECC6C004B3190 /* apitrivia.app */,
+				8B5687A3278ECC6D004B3190 /* apitriviaTests.xctest */,
+				8B5687AE278ECC6D004B3190 /* apitriviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B568794278ECC6C004B3190 /* apitrivia */ = {
+			isa = PBXGroup;
+			children = (
+				8B5687C4278ECCEC004B3190 /* View  */,
+				8B5687C3278ECC7F004B3190 /* Model  */,
+				8B568795278ECC6C004B3190 /* apitriviaApp.swift */,
+				8B568799278ECC6D004B3190 /* Assets.xcassets */,
+				8B56879E278ECC6D004B3190 /* Info.plist */,
+				8B56879B278ECC6D004B3190 /* Preview Content */,
+			);
+			path = apitrivia;
+			sourceTree = "<group>";
+		};
+		8B56879B278ECC6D004B3190 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B56879C278ECC6D004B3190 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B5687A6278ECC6D004B3190 /* apitriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B5687A7278ECC6D004B3190 /* apitriviaTests.swift */,
+				8B5687A9278ECC6D004B3190 /* Info.plist */,
+			);
+			path = apitriviaTests;
+			sourceTree = "<group>";
+		};
+		8B5687B1278ECC6D004B3190 /* apitriviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B5687B2278ECC6D004B3190 /* apitriviaUITests.swift */,
+				8B5687B4278ECC6D004B3190 /* Info.plist */,
+			);
+			path = apitriviaUITests;
+			sourceTree = "<group>";
+		};
+		8B5687C3278ECC7F004B3190 /* Model  */ = {
+			isa = PBXGroup;
+			children = (
+				8B5687C6278ECDC9004B3190 /* apitriviamodel.swift */,
+			);
+			path = "Model ";
+			sourceTree = "<group>";
+		};
+		8B5687C4278ECCEC004B3190 /* View  */ = {
+			isa = PBXGroup;
+			children = (
+				8B568797278ECC6C004B3190 /* ContentView.swift */,
+			);
+			path = "View ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B568791278ECC6C004B3190 /* apitrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5687B7278ECC6D004B3190 /* Build configuration list for PBXNativeTarget "apitrivia" */;
+			buildPhases = (
+				8B56878E278ECC6C004B3190 /* Sources */,
+				8B56878F278ECC6C004B3190 /* Frameworks */,
+				8B568790278ECC6C004B3190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = apitrivia;
+			productName = apitrivia;
+			productReference = 8B568792278ECC6C004B3190 /* apitrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B5687A2278ECC6D004B3190 /* apitriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5687BA278ECC6D004B3190 /* Build configuration list for PBXNativeTarget "apitriviaTests" */;
+			buildPhases = (
+				8B56879F278ECC6D004B3190 /* Sources */,
+				8B5687A0278ECC6D004B3190 /* Frameworks */,
+				8B5687A1278ECC6D004B3190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B5687A5278ECC6D004B3190 /* PBXTargetDependency */,
+			);
+			name = apitriviaTests;
+			productName = apitriviaTests;
+			productReference = 8B5687A3278ECC6D004B3190 /* apitriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B5687AD278ECC6D004B3190 /* apitriviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5687BD278ECC6D004B3190 /* Build configuration list for PBXNativeTarget "apitriviaUITests" */;
+			buildPhases = (
+				8B5687AA278ECC6D004B3190 /* Sources */,
+				8B5687AB278ECC6D004B3190 /* Frameworks */,
+				8B5687AC278ECC6D004B3190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B5687B0278ECC6D004B3190 /* PBXTargetDependency */,
+			);
+			name = apitriviaUITests;
+			productName = apitriviaUITests;
+			productReference = 8B5687AE278ECC6D004B3190 /* apitriviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B56878A278ECC6C004B3190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					8B568791278ECC6C004B3190 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8B5687A2278ECC6D004B3190 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8B568791278ECC6C004B3190;
+					};
+					8B5687AD278ECC6D004B3190 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8B568791278ECC6C004B3190;
+					};
+				};
+			};
+			buildConfigurationList = 8B56878D278ECC6C004B3190 /* Build configuration list for PBXProject "apitrivia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B568789278ECC6C004B3190;
+			productRefGroup = 8B568793278ECC6C004B3190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B568791278ECC6C004B3190 /* apitrivia */,
+				8B5687A2278ECC6D004B3190 /* apitriviaTests */,
+				8B5687AD278ECC6D004B3190 /* apitriviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B568790278ECC6C004B3190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B56879D278ECC6D004B3190 /* Preview Assets.xcassets in Resources */,
+				8B56879A278ECC6D004B3190 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5687A1278ECC6D004B3190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5687AC278ECC6D004B3190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B56878E278ECC6C004B3190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5687C7278ECDC9004B3190 /* apitriviamodel.swift in Sources */,
+				8B568798278ECC6C004B3190 /* ContentView.swift in Sources */,
+				8B568796278ECC6C004B3190 /* apitriviaApp.swift in Sources */,
+				8B5687E0278ED4FC004B3190 /* quizzy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B56879F278ECC6D004B3190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5687A8278ECC6D004B3190 /* apitriviaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5687AA278ECC6D004B3190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5687B3278ECC6D004B3190 /* apitriviaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B5687A5278ECC6D004B3190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B568791278ECC6C004B3190 /* apitrivia */;
+			targetProxy = 8B5687A4278ECC6D004B3190 /* PBXContainerItemProxy */;
+		};
+		8B5687B0278ECC6D004B3190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B568791278ECC6C004B3190 /* apitrivia */;
+			targetProxy = 8B5687AF278ECC6D004B3190 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B5687B5278ECC6D004B3190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B5687B6278ECC6D004B3190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B5687B8278ECC6D004B3190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"apitrivia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = apitrivia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = triviadatabase.apitrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B5687B9278ECC6D004B3190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"apitrivia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = apitrivia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = triviadatabase.apitrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B5687BB278ECC6D004B3190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = apitriviaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = triviadatabase.apitriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apitrivia.app/apitrivia";
+			};
+			name = Debug;
+		};
+		8B5687BC278ECC6D004B3190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = apitriviaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = triviadatabase.apitriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apitrivia.app/apitrivia";
+			};
+			name = Release;
+		};
+		8B5687BE278ECC6D004B3190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = apitriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = triviadatabase.apitriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = apitrivia;
+			};
+			name = Debug;
+		};
+		8B5687BF278ECC6D004B3190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = apitriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = triviadatabase.apitriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = apitrivia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B56878D278ECC6C004B3190 /* Build configuration list for PBXProject "apitrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5687B5278ECC6D004B3190 /* Debug */,
+				8B5687B6278ECC6D004B3190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5687B7278ECC6D004B3190 /* Build configuration list for PBXNativeTarget "apitrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5687B8278ECC6D004B3190 /* Debug */,
+				8B5687B9278ECC6D004B3190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5687BA278ECC6D004B3190 /* Build configuration list for PBXNativeTarget "apitriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5687BB278ECC6D004B3190 /* Debug */,
+				8B5687BC278ECC6D004B3190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5687BD278ECC6D004B3190 /* Build configuration list for PBXNativeTarget "apitriviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B5687BE278ECC6D004B3190 /* Debug */,
+				8B5687BF278ECC6D004B3190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B56878A278ECC6C004B3190 /* Project object */;
+}

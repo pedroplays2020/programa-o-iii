@@ -1,0 +1,3 @@
+649371b05bb562db7f48ca3f9afd9c4a
+
+https://api.openweathermap.org/data/2.5/weather?q=lisboa&appid=649371b05bb562db7f48ca3f9afd9c4a
